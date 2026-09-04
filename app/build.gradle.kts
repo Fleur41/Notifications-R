@@ -44,6 +44,8 @@ dependencies {
     ksp(libs.dagger.hilt.android.compiler)
     implementation(libs.androidx.material3)
     implementation(libs.androidx.core)
+    // Media
+    implementation(libs.androidx.media)
     // Accompanist
     implementation(libs.accompanist.navigation.material.v0360)
     implementation(libs.accompanist.permissions)

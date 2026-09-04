@@ -56,6 +56,10 @@ fun NotificationScreen() {
             Button(onClick = {NotificationUtility.createStickyNotification(context)}) {
                 Text(text = "Create a sticky notification")
             }
+
+            Button(onClick = {NotificationUtility.createProgressNotification(context)}) {
+                Text(text = "Create a progress notification")
+            }
         }
     }
 }
